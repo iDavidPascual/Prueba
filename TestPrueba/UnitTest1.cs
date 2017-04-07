@@ -50,7 +50,7 @@ namespace Prueba.Tests
         public void Pago_ServiciosTest()
         {
             Pago_Servicios met = new Pago_Servicios();
-            string monto = "20"; string fecha = "22/03/2017 8:03:00"; string codCuenta = "1"; string codServicio = "100"; string cod_usuario = "1";
+            string monto = "20"; string fecha = "22/03/2017 8:03:00"; string codCuenta = "1"; string codServicio = "3"; string cod_usuario = "1";
             Assert.AreEqual(true, met.Pagar_servicio2(monto, fecha, codCuenta, codServicio, cod_usuario));
         }
 
