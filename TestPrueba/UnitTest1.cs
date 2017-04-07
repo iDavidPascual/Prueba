@@ -8,12 +8,12 @@ namespace Prueba.Tests
     public class UnitTest1
     {
         
-        [TestMethod]
-        public void LoginTest()
-        {
-            Login met = new Login();
-            Assert.AreEqual(false, met.logearse("david123", "123","1"));
-        }
+        // [TestMethod]
+        // public void LoginTest()
+        // {
+            // Login met = new Login();
+            // Assert.AreEqual(false, met.logearse("david123", "123","1"));
+        // }
 
         [TestMethod()]
         public void RegistroTest()
